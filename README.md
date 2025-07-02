@@ -6,7 +6,7 @@
 
 ### 简介
 
-ComfyUI-Gemini-Kontext 是一个专为 ComfyUI 设计的 Google Gemini API 集成插件，主要提供 **Kontext 提示词优化** 和 **多语言翻译** 功能。
+ComfyUI-Gemini-Kontext 是一个专为Kontext设计的 Google Gemini API 集成插件，主要提供 **Kontext 提示词优化** 和 **多语言翻译** 功能。
 
 ### 主要功能
 <img width="1493" alt="674511f3b7119efd8909080e2c45f02" src="https://github.com/user-attachments/assets/f2ccd237-08a6-4fdd-8439-e0ed2170f731" />
