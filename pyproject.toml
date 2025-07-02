@@ -1,0 +1,41 @@
+[project]
+name = "comfyui-gemini-translator"
+version = "1.0.0"
+description = "Google Gemini API powered translation and image analysis nodes for ComfyUI"
+authors = [{name = "ComfyUI Community", email = "community@comfyui.org"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Multimedia :: Graphics",
+]
+keywords = ["comfyui", "gemini", "translation", "ai", "image-analysis", "google-ai"]
+dependencies = [
+    "google-generativeai>=0.3.0",
+    "Pillow>=8.0.0",
+]
+
+[project.urls]
+Repository = "https://github.com/your-username/ComfyUI-Gemini-Kontext"
+Issues = "https://github.com/your-username/ComfyUI-Gemini-Kontext/issues"
+Documentation = "https://github.com/your-username/ComfyUI-Gemini-Kontext#readme"
+Changelog = "https://github.com/your-username/ComfyUI-Gemini-Kontext/blob/main/CHANGELOG.md"
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["comfyui_gemini_translator"]
+
+[tool.setuptools.package-data]
+"*" = ["*.md", "*.txt", "*.ini"]
